@@ -1,0 +1,79 @@
+{% extends 'layout.html' %}
+
+{% block title %}{% endblock %}
+
+
+{% block content %}
+
+<nav class = 'navbar navbar-default navbar-fixed-top'>
+  <div class = 'container-fluid'>
+    <div class = 'row'>
+      <div class = 'col-xs-12'>
+        <h1 class = 'page-heading navbar-header navbar-left'>Play This</h1>
+        <form class="form-inline signin-form col-xs-offset-5">
+          <div class="form-group">
+            <label for="email-signin">Email: </label>
+            <input type="email" class="form-control" id="email-signin" placeholder="email">
+          </div>
+          &nbsp;
+          <div class="form-group">
+            <label for="password-signin">Password: </label>
+            <input type="password" class="form-control" id="password-signin" placeholder="password">
+          </div>
+          &nbsp;&nbsp;&nbsp;
+          <button type="submit" class="btn btn-default">Sign In</button>
+          &nbsp;&nbsp;&nbsp;
+          <button type="submit" class="btn btn-default">Register</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class = 'jumbotron'>
+  <div class = 'container'>
+
+    <h1>Play This</h1>
+
+  </div>
+</div>
+
+<div class = 'container'>
+  <div class = 'row'>
+    <div class = 'col-xs-12'>
+
+      <h1>Playlists</h1>
+
+      <div class = 'row' id = 'show-playlists'>
+        <div class = 'playlist notClicked col-xs-4'>
+        Well, the way they make shows is, they make one show. That show's called a pilot. Then they show that show to the people who make shows, and on the strength of that one show they decide if they're going to make more shows. Some pilots get picked and become television programs. Some don't, become nothing. She starred in one of the ones that became nothing.
+        </div>
+         <div class = 'playlist notClicked col-xs-4'>
+        Well, the way they make shows is, they make one show. That show's called a pilot. Then they show that show to the people who make shows, and on the strength of that one show they decide if they're going to make more shows. Some pilots get picked and become television programs. Some don't, become nothing. She starred in one of the ones that became nothing.
+        </div>
+         <div class = 'playlist notClicked col-xs-4'>
+        Well, the way they make shows is, they make one show. That show's called a pilot. Then they show that show to the people who make shows, and on the strength of that one show they decide if they're going to make more shows. Some pilots get picked and become television programs. Some don't, become nothing. She starred in one of the ones that became nothing.
+        </div>
+         <div class = 'playlist notClicked col-xs-4'>
+        Well, the way they make shows is, they make one show. That show's called a pilot. Then they show that show to the people who make shows, and on the strength of that one show they decide if they're going to make more shows. Some pilots get picked and become television programs. Some don't, become nothing. She starred in one of the ones that became nothing.
+        </div>
+         <div class = 'playlist notClicked col-xs-4'>
+        Well, the way they make shows is, they make one show. That show's called a pilot. Then they show that show to the people who make shows, and on the strength of that one show they decide if they're going to make more shows. Some pilots get picked and become television programs. Some don't, become nothing. She starred in one of the ones that became nothing.
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+{% endblock %}
+
+<!-- html for soundcloud player
+ -->
+<!--             <div class = 'navbar col-xs-offset-2'>
+            <object height="81" width="100%" id="player" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000">
+              <param name="movie" value="http://player.soundcloud.com/player.swf?url=http%3A%2F%2Fsoundcloud.com%2Fmatas%2Fhobnotropic&enable_api=true&object_id=myPlayer"></param>
+              <param name="allowscriptaccess" value="always"></param>
+              <embed allowscriptaccess="always" height="81" src="http://player.soundcloud.com/player.swf?url=http%3A%2F%2Fsoundcloud.com%2Fmatas%2Fhobnotropic&enable_api=true&object_id=myPlayer" type="application/x-shockwave-flash" width="100%" name="myPlayer"></embed>
+            </object>
+            </div> -->
