@@ -10,7 +10,11 @@ body{
 }*/
 
 .signin-form{
-  padding-top: 30px;
+  padding-top: 10px;
+}
+
+.buttons{
+  padding-top: 5px;
 }
 
 .page-heading{
@@ -30,6 +34,18 @@ body{
   padding-bottom: 10px;
   background-color: black;
   color: white;
+}
+
+@media(max-width: 991px){
+  .navbar{
+    height: 140px;
+  }
+}
+
+@media(max-width: 768px){
+  .navbar{
+    height:240px;
+  }
 }
 
 .jumbotron{
