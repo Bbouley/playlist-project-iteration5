@@ -17,13 +17,12 @@ body{
 .showUser{
   background-color: white;
   height: 90px;
-  color: black;
 }
 
 
-.buttons{
+/*.buttons{
   padding-top: 5px;
-}
+}*/
 
 .page-heading{
   font-size: 50px;
@@ -44,26 +43,6 @@ body{
   color: white;
 }
 
-@media(max-width: 991px){
-  .navbar, .showUser{
-    height: 140px;
-  }
-  .create{
-    margin-top: 50px;
-  }
-}
-
-@media(max-width: 768px){
-  .navbar{
-    height:240px;
-  }
-  .showUser{
-    height: 155px;
-  }
-  .create{
-    margin-top: 150px;
-  }
-}
 
 .jumbotron{
   height: 300px;

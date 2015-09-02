@@ -5,4 +5,8 @@ router.get('/', function(req, res, next) {
   res.render('index');
 });
 
+router.get('/playlistform', function(req, res, next){
+  res.render('playlistform', {userEmail:'test'});
+});
+
 module.exports = router;
